@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<are:Ares_odpovedi vystup_format="XML" odpoved_typ="es" Id="ares" odpoved_datum_cas="2020-05-19T21:38:08" xsi:schemaLocation="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_es/v_1.0.0 http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_es/v_1.0.0/ares_answer_es.xsd" xmlns:are="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer_es/v_1.0.0" xmlns:dtt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_datatypes/v_1.0.4" xmlns:udt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/uvis_datatypes/v_1.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<are:Odpoved>
+<dtt:V>
+<dtt:S>
+<dtt:ico>67091997</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Jiří Maděra</dtt:ojm>
+<dtt:jmn>Kladno, Kročehlavy, Vodárenská 2357</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>75593769</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Jiří Maděra</dtt:ojm>
+<dtt:jmn>Bratrušov 118</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:ir>0</dtt:ir>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>64312402</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Jiří Maděra</dtt:ojm>
+<dtt:jmn>Modřice, Havlíčkova 485</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:dph>0</dtt:dph>
+<dtt:p_dph>dic=6611061985</dtt:p_dph>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>72814551</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Jiří Maděra</dtt:ojm>
+<dtt:jmn>Mladějov 45</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>49027204</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Jiří Maděra</dtt:ojm>
+<dtt:jmn>Jiřice 201</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>88876969</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Jiří Maděra</dtt:ojm>
+<dtt:jmn>Ostrava, Polanka nad Odrou, Gregora Tajovského 390/15</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>12058661</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Jiří Maděra</dtt:ojm>
+<dtt:jmn>Liberec IV-Perštýn, Šumavská 532/1</dtt:jmn>
+<dtt:or>1</dtt:or>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:dph>0</dtt:dph>
+<dtt:p_dph>dic=6605100073</dtt:p_dph>
+<dtt:cedr>0</dtt:cedr>
+<dtt:p_cedr>ico=12058661</dtt:p_cedr>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>02052997</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Jiří Maděra</dtt:ojm>
+<dtt:jmn>Praha 7, Holešovice, Schnirchova 1374/28</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>76052931</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Ing. Jiří Maděra</dtt:ojm>
+<dtt:jmn>Kropáčova Vrutice 119</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+<dtt:S>
+<dtt:ico>45495491</dtt:ico>
+<dtt:pf>101</dtt:pf>
+<dtt:ojm>Mgr. Jiří Maděra</dtt:ojm>
+<dtt:jmn>Nové Město na Moravě, Soškova 232</dtt:jmn>
+<dtt:res>0</dtt:res>
+<dtt:rzp>0</dtt:rzp>
+<dtt:ros>0</dtt:ros>
+</dtt:S>
+</dtt:V>
+<dtt:Pocet_zaznamu>10</dtt:Pocet_zaznamu>
+<dtt:Filtr>1</dtt:Filtr>
+</are:Odpoved>
+</are:Ares_odpovedi>

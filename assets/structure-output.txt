@@ -1,0 +1,11 @@
+{ares data pro prevod}
+Ico:A,8;
+DatumVzniku:D,'DD.MM.YY';
+NazevOdberatele:A,35;
+NazevOdberatele2:A,35;
+Ulice:A,20;
+Mesto:A,20;
+Psc:A,5;
+Dic1:A,2;
+Dic2:A,10;
+_;_;_;_;_;_;_;_;_

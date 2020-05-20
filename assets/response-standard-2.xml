@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<are:Ares_odpovedi xmlns:are="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer/v_1.0.1" 
+    xmlns:dtt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_datatypes/v_1.0.4" 
+    xmlns:udt="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/uvis_datatypes/v_1.0.1" odpoved_datum_cas="2020-05-19T21:37:00" odpoved_pocet="1" odpoved_typ="Standard" vystup_format="XML" xslt="klient" validation_XSLT="/ares/xml_doc/schemas/ares/ares_answer/v_1.0.0/ares_answer.xsl" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer/v_1.0.1 http://wwwinfo.mfcr.cz/ares/xml_doc/schemas/ares/ares_answer/v_1.0.1/ares_answer_v_1.0.1.xsd" Id="ares">
+    <are:Odpoved>
+        <are:Pocet_zaznamu>1</are:Pocet_zaznamu>
+        <are:Typ_vyhledani>FREE</are:Typ_vyhledani>
+        <are:Zaznam>
+            <are:Shoda_ICO>
+                <dtt:Kod>9</dtt:Kod>
+            </are:Shoda_ICO>
+            <are:Vyhledano_dle>ICO</are:Vyhledano_dle>
+            <are:Typ_registru>
+                <dtt:Kod>2</dtt:Kod>
+                <dtt:Text>OR</dtt:Text>
+            </are:Typ_registru>
+            <are:Datum_vzniku>1998-10-23</are:Datum_vzniku>
+            <are:Datum_platnosti>2020-05-19</are:Datum_platnosti>
+            <are:Pravni_forma>
+                <dtt:Kod_PF>112</dtt:Kod_PF>
+            </are:Pravni_forma>
+            <are:Obchodni_firma>HBPO Czech s.r.o.</are:Obchodni_firma>
+            <are:ICO>25704567</are:ICO>
+            <are:Identifikace>
+                <are:Adresa_ARES>
+                    <dtt:ID_adresy>203842829</dtt:ID_adresy>
+                    <dtt:Kod_statu>203</dtt:Kod_statu>
+                    <dtt:Nazev_okresu>Mladá Boleslav</dtt:Nazev_okresu>
+                    <dtt:Nazev_obce>Mnichovo Hradiště</dtt:Nazev_obce>
+                    <dtt:Nazev_casti_obce>Mnichovo Hradiště</dtt:Nazev_casti_obce>
+                    <dtt:Nazev_ulice>Nákladní</dtt:Nazev_ulice>
+                    <dtt:Cislo_domovni>275</dtt:Cislo_domovni>
+                    <dtt:Typ_cislo_domovni>1</dtt:Typ_cislo_domovni>
+                    <dtt:PSC>29501</dtt:PSC>
+                    <dtt:Adresa_UIR>
+                        <udt:Kod_oblasti>27</udt:Kod_oblasti>
+                        <udt:Kod_kraje>27</udt:Kod_kraje>
+                        <udt:Kod_okresu>3207</udt:Kod_okresu>
+                        <udt:Kod_obce>536326</udt:Kod_obce>
+                        <udt:Kod_casti_obce>402770</udt:Kod_casti_obce>
+                        <udt:PSC>29501</udt:PSC>
+                        <udt:Kod_ulice>293679</udt:Kod_ulice>
+                        <udt:Cislo_domovni>275</udt:Cislo_domovni>
+                        <udt:Typ_cislo_domovni>1</udt:Typ_cislo_domovni>
+                        <udt:Kod_adresy>15555534</udt:Kod_adresy>
+                        <udt:Kod_objektu>15444201</udt:Kod_objektu>
+                        <udt:PCD>320711273</udt:PCD>
+                    </dtt:Adresa_UIR>
+                </are:Adresa_ARES>
+            </are:Identifikace>
+            <are:Kod_FU>50</are:Kod_FU>
+            <are:Priznaky_subjektu>NAAANANNNNNNNNNNNNNNNNNNANNNNN</are:Priznaky_subjektu>
+        </are:Zaznam>
+    </are:Odpoved>
+</are:Ares_odpovedi>
