@@ -46,7 +46,7 @@ namespace Ares {
                     company.writeToFile(exeDir + @"\..\Ares.txt");
 #endif
                 }
-                return 0;
+                return 1;
 
             } catch (Exception e) {
                 Console.WriteLine(e.Message);
@@ -126,7 +126,7 @@ namespace Ares {
             return this.created.ToString("dd.MM.yy");
         }
 
-        public string serialize() {
+        public string[] getLines() {
             string[] vals = {
                 this.idno,
                 this.getCreated(),
@@ -137,19 +137,21 @@ namespace Ares {
                 this.zip,
                 this.taxpf,
                 this.taxno};
-            return string.Join(";", vals);
+            return vals;
         }
 
         public void writeToFile(string filename) {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            Encoding targetEncoding = Encoding.GetEncoding("iso-8859-2");
+            Encoding targetEncoding = Encoding.GetEncoding("ibm852");
 
             var fs = File.Open(filename, FileMode.Create);
             using (StreamWriter stream = new StreamWriter(fs, targetEncoding)) {
                 Console.WriteLine("Writing to file: " + filename);
-                string output = this.serialize();
-                Console.WriteLine(output);
-                stream.WriteLine(output);
+                string[] lines = this.getLines();
+                for (int i = 0; i < lines.Length; i++) {
+                    Console.WriteLine(lines[i]);
+                    stream.WriteLine(lines[i]);
+                }
             }
         }
 
