@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<StatusNespolehlivyPlatceResponse xmlns="http://adis.mfcr.cz/rozhraniCRPDPH/">
+<status odpovedGenerovana="2013-03-07" statusCode="0" statusText="OK" />
+<statusPlatceDPH cisloFu="451" datumZverejneniNespolehlivosti="2013-03-02" dic="445522999" nespolehlivyPlatce="ANO" />
+</StatusNespolehlivyPlatceResponse>
+</soapenv:Body>
+</soapenv:Envelope>

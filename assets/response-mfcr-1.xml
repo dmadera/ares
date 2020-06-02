@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<StatusNespolehlivyPlatceResponse xmlns="http://adis.mfcr.cz/rozhraniCRPDPH/">
+<status odpovedGenerovana="2013-03-07" statusCode="0" statusText="OK" />
+<statusPlatceDPH cisloFu="13" dic="8855229999" nespolehlivyPlatce="NE">
+<zverejneneUcty>
+<ucet datumZverejneni="2013-03-01">
+<standardniUcet cislo="123456789" kodBanky="0800" />
+</ucet>
+<ucet datumZverejneni="2013-02-01">
+<standardniUcet cislo="9876543210" kodBanky="0800" predcisli="158" />
+</ucet>
+<ucet datumZverejneni="2013-02-01">
+<nestandardniUcet cislo="AL47212110090000000235698741" />
+</ucet>
+</zverejneneUcty>
+</statusPlatceDPH>
+</StatusNespolehlivyPlatceResponse>
+</soapenv:Body>
+</soapenv:Envelope>
