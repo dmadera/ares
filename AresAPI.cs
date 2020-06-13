@@ -5,6 +5,7 @@ using System.Xml;
 using System.Web;
 using System.Text;
 using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace Ares {
 
@@ -89,9 +90,31 @@ namespace Ares {
             n = root.SelectSingleNode(".//dtt:PSC", nsmgr);
             if (n != null) c.zip = n.InnerText;
 
+            n = root.SelectSingleNode(".//dtt:Adresa_textem", nsmgr);
+            if (n != null) AresAPI.parseTextAddress(c, n.InnerText);
+
             c.taxno = AresAPI.getTaxno(idno, c.name, root, testFileName1);
 
             return c;
+        }
+
+        private static void parseTextAddress(Company company, string textAddress) {
+            var matches = Regex.Matches(textAddress,
+                @"^([\p{L}\s]+)([0-9]+)/?([0-9]?)\s([0-9]{3}\s?[0-9]{2})\s?,\s?([\p{L}]+)",
+                RegexOptions.Singleline);
+            
+            if(matches.Count != 1) return;
+            
+            GroupCollection groups = matches[0].Groups;
+            if(groups.Count < 6) return; 
+        
+            if (string.IsNullOrEmpty(company.houseNumber)) {
+                company.houseNumber = groups[2].Value.Trim();
+                company.locationNumber = groups[3].Value.Trim();
+            }
+            if (string.IsNullOrEmpty(company.street)) company.street = groups[1].Value.Trim();
+            if (string.IsNullOrEmpty(company.zip)) company.zip = groups[4].Value.Replace(" ", String.Empty).Trim();
+            if (string.IsNullOrEmpty(company.city)) company.city = groups[5].Value.Trim();
         }
 
         private static string getTaxno(string idno, string name, XmlNode rootPrev, string testFileName1) {

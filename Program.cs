@@ -1,7 +1,4 @@
-﻿#define DEBUG
-#undef DEBUG
-
-using System;
+﻿using System;
 using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
@@ -16,7 +13,7 @@ namespace Ares {
 
     class Program {
         public const string debugAssetsFolder = "assets";
-        public const string debugStandardFile = "response-standard-4.xml";
+        public const string debugStandardFile = "response-standard-5.xml";
         public const string debugTaxFile = "response-dph-1.xml";
         public const string debugTaxStatusFile = "response-mfcr-3.xml";
 
@@ -42,6 +39,7 @@ namespace Ares {
 #if DEBUG
                     Company company = AresAPI.getCompanyByIdno(idno, Path.Combine(debugAssetsFolder, debugStandardFile), Path.Combine(debugAssetsFolder, debugTaxFile));
                     company.taxpayerStatus = MfcrAPI.getTaxpayerStatus(company.taxno, Path.Combine(debugAssetsFolder, debugTaxStatusFile));
+                    company.writeToFile(Path.Combine(exeDir, "Ares.txt"));
 #else
                     Company company = AresAPI.getCompanyByIdno(idno);
                     company.taxpayerStatus = MfcrAPI.getTaxpayerStatus(company.taxno);
